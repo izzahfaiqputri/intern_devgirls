@@ -4,34 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - LokerGo</title>
-    <link rel="stylesheet" href="styles.css/styles.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div class="container">
+        <!-- Bagian Login -->
         <div class="login-box">
             <h2>LOGIN</h2>
             <p>Selamat datang!!</p>
             <form>
-                <div class="input">
-                    <label for="username">Username</label>
+                <div class="input-group">
+                    <label for="username"><i class="fas fa-user"></i> Username</label>
                     <input type="text" id="username" placeholder="Username">
                 </div>
-                <div class="input">
-                    <label for="password">Password</label>
+                <div class="input-group">
+                    <label for="password"><i class="fas fa-lock"></i> Password</label>
                     <input type="password" id="password" placeholder="Password">
                 </div>
-                <button type="submit" class="btn">Login Now</button>
+                <!-- <button type="submit" class="btn">Login Now</button> -->
+                <a href="dasboard.html" class="btn">Login Now</a>
             </form>
-            <p class="signup-text">Sign Up Jika Belum punya akun</p>
+            <p class="signup-text"><strong>Sign Up</strong> jika belum punya akun</p>
             <div class="social-login">
-                <button class="google-btn">Login with Google</button>
-                <button class="facebook-btn">Login with Facebook</button>
+                <button class="google-btn"><img src="google-icon.png" alt="Google"> Login with <strong>Google</strong></button>
+                <button class="facebook-btn"><img src="facebook-icon.png" alt="Facebook"> Login with <strong>Facebook</strong></button>
             </div>
         </div>
-        <div class="logo-box">
-            <img src="assets/image/logo.png" alt="LokerGo Logo">
-            <h1>LokerGo</h1>
+
+        <!-- Bagian Logo & Background -->
+        <div class="login-background">
+            <div class="overlay"></div>
+            <img src="assets/image/logo.png" alt="LokerGo Logo" class="logo">
+            <h1 class="logo-text">LokerGo</h1>
         </div>
     </div>
+
+    <!-- FontAwesome untuk ikon -->
+    <!-- <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script> -->
 </body>
 </html>

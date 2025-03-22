@@ -14,7 +14,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #283593;
+    background-color: #154961;
     color: white;
     padding: 20px;
     text-align: center;
@@ -50,7 +50,7 @@ section {
 
 section h2 {
     margin-bottom: 15px;
-    color: #283593;
+    color: #154961;
 }
 
 section h3 {
@@ -58,13 +58,13 @@ section h3 {
     margin-bottom: 10px;
     border-radius: 17px;
     position: relative;
-    background-color:  #283593; 
+    background-color:  #154961; 
     color: white;
 }
 
 /* Button styles */
 button {
-    background-color: #3f51b5;
+    background-color: #154961;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -86,7 +86,7 @@ ol {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #283593;
+    background-color: #154961;
     color: white;
     position: relative;
     bottom: 0;
