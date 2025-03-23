@@ -1,18 +1,17 @@
-/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
+/* Bagian Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f4f8;
     color: #333;
 }
 
-/* Header styles */
+/* Bagian Header */
 header {
     background-color: #154961;
     color: white;
@@ -39,7 +38,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Section styles */
+/* Section */
 section {
     padding: 20px;
     margin: 20px auto;
@@ -62,7 +61,7 @@ section h3 {
     color: white;
 }
 
-/* Button styles */
+/* Bagian Button */
 button {
     background-color: #154961;
     color: white;
@@ -77,12 +76,11 @@ button:hover {
     background-color: #5c6bc0;
 }
 
-/* List styles */
 ol {
     margin-left: 20px;
 }
 
-/* Footer styles */
+/* Bagian Footer */
 footer {
     text-align: center;
     padding: 20px;
